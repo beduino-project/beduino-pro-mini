@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TC1017
+D 150mA Low Dropout Regulator with ERROR output in 5-Pin SOT-23 package
+K LDO regulator voltage
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21350E.pdf
+$ENDCMP
+#
+#End Doc Library

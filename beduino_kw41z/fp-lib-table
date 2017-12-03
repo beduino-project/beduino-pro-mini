@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name MyAntennas)(type KiCad)(uri "$(KIPRJMOD)/mod/PCB_Antenna_Lib/MyAntennas.pretty")(options "")(descr ""))
+)
