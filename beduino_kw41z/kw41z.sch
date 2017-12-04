@@ -115,72 +115,61 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 1550 1300 0    39   Input ~ 0
+Text HLabel 2050 1300 2    39   Input ~ 0
 TGT_NRESET
-Text HLabel 1550 1700 0    39   BiDi ~ 0
+Text HLabel 2050 1700 2    39   BiDi ~ 0
 TGT_SWDIO
-Text HLabel 1550 1800 0    39   Input ~ 0
+Text HLabel 2050 1800 2    39   Input ~ 0
 TGT_SWCLK
-Text HLabel 1550 1500 0    39   Input ~ 0
+Text HLabel 2050 1500 2    39   Input ~ 0
 TGT_RX
-Text HLabel 1550 1600 0    39   Output ~ 0
+Text HLabel 2050 1600 2    39   Output ~ 0
 TGT_TX
 $Comp
 L Conn_01x07 J?
 U 1 1 5A2111DE
-P 2350 1500
-F 0 "J?" H 2430 1542 50  0000 L CNN
-F 1 "Conn_01x07" H 2430 1451 50  0000 L CNN
-F 2 "" H 2350 1500 50  0001 C CNN
-F 3 "" H 2350 1500 50  0001 C CNN
-	1    2350 1500
-	1    0    0    -1  
+P 1250 1500
+F 0 "J?" H 1330 1542 50  0000 L CNN
+F 1 "Conn_01x07" H 1330 1451 50  0000 L CNN
+F 2 "" H 1250 1500 50  0001 C CNN
+F 3 "" H 1250 1500 50  0001 C CNN
+	1    1250 1500
+	-1   0    0    -1  
 $EndComp
 $Comp
 L GND #PWR?
 U 1 1 5A2114C3
-P 1550 1200
-F 0 "#PWR?" H 1550 950 50  0001 C CNN
-F 1 "GND" V 1555 1072 50  0000 R CNN
-F 2 "" H 1550 1200 50  0001 C CNN
-F 3 "" H 1550 1200 50  0001 C CNN
-	1    1550 1200
-	0    1    1    0   
-$EndComp
-$Comp
-L +3V3 #PWR?
-U 1 1 5A211513
-P 1550 1400
-F 0 "#PWR?" H 1550 1250 50  0001 C CNN
-F 1 "+3V3" V 1565 1528 50  0000 L CNN
-F 2 "" H 1550 1400 50  0001 C CNN
-F 3 "" H 1550 1400 50  0001 C CNN
-	1    1550 1400
-	0    -1   -1   0   
+P 2050 1200
+F 0 "#PWR?" H 2050 950 50  0001 C CNN
+F 1 "GND" V 2055 1072 50  0000 R CNN
+F 2 "" H 2050 1200 50  0001 C CNN
+F 3 "" H 2050 1200 50  0001 C CNN
+	1    2050 1200
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	1550 1200 2150 1200
+	2050 1200 1450 1200
 Wire Wire Line
-	2150 1300 1550 1300
+	1450 1300 2050 1300
 Wire Wire Line
-	1550 1400 2150 1400
+	1450 1400 3000 1400
 Wire Wire Line
-	2150 1500 1550 1500
+	1450 1500 2050 1500
 Wire Wire Line
-	1550 1600 2150 1600
+	2050 1600 1450 1600
 Wire Wire Line
-	2150 1700 1550 1700
+	1450 1700 2050 1700
 Wire Wire Line
-	1550 1800 2150 1800
-Text Label 1700 1300 0    39   ~ 0
+	2050 1800 1450 1800
+Text Label 1900 1300 2    39   ~ 0
 TGT_NRESET
-Text Label 1700 1500 0    39   ~ 0
+Text Label 1900 1500 2    39   ~ 0
 TGT_RX
-Text Label 1700 1600 0    39   ~ 0
+Text Label 1900 1600 2    39   ~ 0
 TGT_TX
-Text Label 1700 1700 0    39   ~ 0
+Text Label 1900 1700 2    39   ~ 0
 TGT_SWDIO
-Text Label 1700 1800 0    39   ~ 0
+Text Label 1900 1800 2    39   ~ 0
 TGT_SWCLK
 $Comp
 L TC1017 U?
@@ -240,12 +229,12 @@ $EndComp
 $Comp
 L +3V3 #PWR?
 U 1 1 5A22B297
-P 3200 2400
-F 0 "#PWR?" H 3200 2250 50  0001 C CNN
-F 1 "+3V3" V 3215 2528 50  0000 L CNN
-F 2 "" H 3200 2400 50  0001 C CNN
-F 3 "" H 3200 2400 50  0001 C CNN
-	1    3200 2400
+P 3200 2150
+F 0 "#PWR?" H 3200 2000 50  0001 C CNN
+F 1 "+3V3" V 3215 2278 50  0000 L CNN
+F 2 "" H 3200 2150 50  0001 C CNN
+F 3 "" H 3200 2150 50  0001 C CNN
+	1    3200 2150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -637,7 +626,7 @@ $EndComp
 Wire Wire Line
 	2500 2700 2600 2700
 Wire Wire Line
-	3000 2700 3000 2800
+	3000 1400 3000 2800
 Wire Wire Line
 	3000 3200 3000 3100
 Connection ~ 3000 3200
@@ -646,8 +635,6 @@ Wire Wire Line
 Wire Wire Line
 	3800 2800 3800 2700
 Connection ~ 3000 2700
-Wire Wire Line
-	3200 2700 3200 2400
 $Comp
 L D_Schottky D?
 U 1 1 5A233D98
@@ -1157,4 +1144,19 @@ Text Notes 2450 6900 0    39   ~ 0
 DNP
 Text Notes 5150 4550 0    59   ~ 0
 10pf loading capacitance\nintegrated into the MCU
+$Comp
+L Jumper_NC_Small JP?
+U 1 1 5A2547D3
+P 3200 2350
+F 0 "JP?" V 3154 2425 50  0000 L CNN
+F 1 "Power" V 3245 2425 50  0000 L CNN
+F 2 "" H 3200 2350 50  0001 C CNN
+F 3 "" H 3200 2350 50  0001 C CNN
+	1    3200 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3200 2700 3200 2450
+Wire Wire Line
+	3200 2250 3200 2150
 $EndSCHEMATC
