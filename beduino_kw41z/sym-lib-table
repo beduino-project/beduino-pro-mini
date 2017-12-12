@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name beduino_kw41z-rescue)(type Legacy)(uri ${KIPRJMOD}/beduino_kw41z-rescue.lib)(options "")(descr ""))
+  (lib (name beduino_regul)(type Legacy)(uri ${KIPRJMOD}/lib/beduino_regul.lib)(options "")(descr ""))
+  (lib (name beduino_nxp)(type Legacy)(uri ${KIPRJMOD}/lib/beduino_nxp.lib)(options "")(descr ""))
+  (lib (name beduino_conn)(type Legacy)(uri ${KIPRJMOD}/lib/beduino_conn.lib)(options "")(descr ""))
+  (lib (name MyAntennas)(type Legacy)(uri ${KIPRJMOD}/mod/PCB_Antenna_Lib/MyAntennas.lib)(options "")(descr ""))
+)
