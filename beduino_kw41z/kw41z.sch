@@ -97,12 +97,12 @@ $EndComp
 $Comp
 L device:C C12
 U 1 1 5A22B051
-P 3000 2950
-F 0 "C12" H 3115 2996 50  0000 L CNN
-F 1 "10u" H 3115 2905 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3038 2800 50  0001 C CNN
-F 3 "" H 3000 2950 50  0001 C CNN
-	1    3000 2950
+P 2650 2950
+F 0 "C12" H 2765 2996 50  0000 L CNN
+F 1 "10u" H 2765 2905 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2688 2800 50  0001 C CNN
+F 3 "" H 2650 2950 50  0001 C CNN
+	1    2650 2950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -409,26 +409,20 @@ Wire Wire Line
 $Comp
 L device:D_Schottky D7
 U 1 1 5A2331B9
-P 2750 2700
-F 0 "D7" H 2750 2484 50  0000 C CNN
-F 1 "BAT60A" H 2750 2575 50  0000 C CNN
-F 2 "Diodes_SMD:D_SOD-323" H 2750 2700 50  0001 C CNN
-F 3 "" H 2750 2700 50  0001 C CNN
-	1    2750 2700
+P 2800 2700
+F 0 "D7" H 2800 2484 50  0000 C CNN
+F 1 "BAT60A" H 2800 2575 50  0000 C CNN
+F 2 "Diodes_SMD:D_SOD-323" H 2800 2700 50  0001 C CNN
+F 3 "" H 2800 2700 50  0001 C CNN
+	1    2800 2700
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	2500 2700 2600 2700
-Wire Wire Line
 	3000 1400 3000 2700
-Wire Wire Line
-	3000 3200 3000 3100
-Connection ~ 3000 3200
 Wire Wire Line
 	3800 3200 3800 3100
 Wire Wire Line
 	3800 2800 3800 2700
-Connection ~ 3000 2700
 $Comp
 L device:D_Schottky D8
 U 1 1 5A233D98
@@ -445,8 +439,6 @@ Wire Wire Line
 Connection ~ 3200 2700
 Wire Wire Line
 	1200 3200 2100 3200
-Wire Wire Line
-	2900 2700 3000 2700
 Wire Wire Line
 	7850 6100 7850 6200
 Wire Wire Line
@@ -922,7 +914,7 @@ Wire Wire Line
 Wire Wire Line
 	2100 3200 2100 3300
 Wire Wire Line
-	2100 3200 3000 3200
+	2100 3200 2650 3200
 Wire Wire Line
 	2300 6500 2400 6500
 Wire Wire Line
@@ -933,10 +925,6 @@ Wire Wire Line
 	2850 7000 2850 7100
 Wire Wire Line
 	2850 7000 2950 7000
-Wire Wire Line
-	3000 3200 3800 3200
-Wire Wire Line
-	3000 2700 3000 2800
 Wire Wire Line
 	3000 2700 3200 2700
 Wire Wire Line
@@ -1178,4 +1166,17 @@ Wire Wire Line
 Connection ~ 3200 2500
 Wire Wire Line
 	3200 2500 3200 2450
+Wire Wire Line
+	2650 2700 2650 2800
+Wire Wire Line
+	2500 2700 2650 2700
+Wire Wire Line
+	2650 3100 2650 3200
+Connection ~ 2650 3200
+Connection ~ 2650 2700
+Wire Wire Line
+	2950 2700 3000 2700
+Wire Wire Line
+	2650 3200 3800 3200
+Connection ~ 3000 2700
 $EndSCHEMATC

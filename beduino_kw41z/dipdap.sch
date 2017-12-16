@@ -63,12 +63,12 @@ $EndComp
 $Comp
 L device:C C4
 U 1 1 5A1F1BE5
-P 3600 2150
-F 0 "C4" H 3715 2196 50  0000 L CNN
-F 1 "10u" H 3715 2105 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3638 2000 50  0001 C CNN
-F 3 "" H 3600 2150 50  0001 C CNN
-	1    3600 2150
+P 3000 2200
+F 0 "C4" H 3115 2246 50  0000 L CNN
+F 1 "10u" H 3115 2155 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3038 2050 50  0001 C CNN
+F 3 "" H 3000 2200 50  0001 C CNN
+	1    3000 2200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -92,8 +92,6 @@ Wire Wire Line
 	1700 2300 1700 2500
 Wire Wire Line
 	2400 2300 2400 2500
-Wire Wire Line
-	3600 2500 3600 2300
 Connection ~ 2400 2500
 Wire Wire Line
 	2000 2000 1900 2000
@@ -134,16 +132,11 @@ Wire Wire Line
 	950  3950 1050 3950
 Connection ~ 1050 3950
 NoConn ~ 1350 3700
-Wire Wire Line
-	3600 1700 3600 1900
 Connection ~ 1500 1900
 NoConn ~ 2800 2000
 Wire Wire Line
 	1700 1900 1700 2000
 Connection ~ 1700 1900
-Wire Wire Line
-	3200 1900 3600 1900
-Connection ~ 3600 1900
 $Comp
 L device:Q_PMOS_SGD Q1
 U 1 1 5A1F2B3B
@@ -221,10 +214,6 @@ Wire Wire Line
 	4300 1600 4300 1700
 Wire Wire Line
 	3000 3100 3200 3100
-Wire Wire Line
-	2100 3600 2250 3600
-Wire Wire Line
-	2100 3500 2600 3500
 $Comp
 L device:R R4
 U 1 1 5A202896
@@ -642,16 +631,14 @@ $EndComp
 $Comp
 L device:D_Schottky D1
 U 1 1 5A23E5EA
-P 3050 1900
-F 0 "D1" H 3050 1684 50  0000 C CNN
-F 1 "BAT60A" H 3050 1775 50  0000 C CNN
-F 2 "Diodes_SMD:D_SOD-323" H 3050 1900 50  0001 C CNN
-F 3 "" H 3050 1900 50  0001 C CNN
-	1    3050 1900
+P 3300 1900
+F 0 "D1" H 3300 1684 50  0000 C CNN
+F 1 "BAT60A" H 3300 1775 50  0000 C CNN
+F 2 "Diodes_SMD:D_SOD-323" H 3300 1900 50  0001 C CNN
+F 3 "" H 3300 1900 50  0001 C CNN
+	1    3300 1900
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	2800 1900 2900 1900
 Wire Wire Line
 	1700 2500 2400 2500
 $Comp
@@ -679,7 +666,7 @@ Wire Wire Line
 Wire Wire Line
 	2400 2500 2400 2600
 Wire Wire Line
-	2400 2500 3600 2500
+	2400 2500 3000 2500
 Wire Wire Line
 	1900 1900 2000 1900
 Wire Wire Line
@@ -689,15 +676,9 @@ Wire Wire Line
 Wire Wire Line
 	1700 1900 1900 1900
 Wire Wire Line
-	3600 1900 3600 2000
-Wire Wire Line
 	4800 3100 5000 3100
 Wire Wire Line
 	4300 2100 4300 2200
-Wire Wire Line
-	2600 3500 3100 3500
-Wire Wire Line
-	2250 3600 5000 3600
 Wire Wire Line
 	3100 3500 5000 3500
 Wire Wire Line
@@ -715,7 +696,7 @@ F 1 "SW_Push" H 3400 3294 50  0000 C CNN
 F 2 "" H 3400 3300 50  0001 C CNN
 F 3 "" H 3400 3300 50  0001 C CNN
 	1    3400 3100
-	-1   0    0    -1  
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:VBUS #PWR03
@@ -846,4 +827,29 @@ Wire Wire Line
 	4600 5400 4600 5550
 Wire Wire Line
 	4100 5400 4100 5500
+Wire Wire Line
+	2100 3600 5000 3600
+Wire Wire Line
+	2100 3500 3100 3500
+Wire Wire Line
+	3000 1900 3000 2050
+Wire Wire Line
+	3600 1700 3600 1900
+Wire Wire Line
+	2800 1900 3000 1900
+Wire Wire Line
+	3000 1900 3150 1900
+Connection ~ 3000 1900
+Wire Wire Line
+	3450 1900 3600 1900
+Wire Wire Line
+	3000 2350 3000 2500
+Text Label 1500 3500 0    60   ~ 0
+USB_P
+Text Label 1500 3600 0    60   ~ 0
+USB_N
+Text Label 2400 3500 0    60   ~ 0
+USB_R_P
+Text Label 2400 3600 0    60   ~ 0
+USB_R_N
 $EndSCHEMATC
