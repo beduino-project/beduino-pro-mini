@@ -2272,9 +2272,9 @@
     (fp_line (start 11.06 -4.11) (end 16.45 -4.11) (layer B.CrtYd) (width 0.05))
     (fp_arc (start 0 0) (end -11.06 4.11) (angle -139.2) (layer B.CrtYd) (width 0.05))
     (fp_arc (start 0 0) (end 11.06 -4.11) (angle -139.2) (layer B.CrtYd) (width 0.05))
-    (pad 2 smd roundrect (at 14.68 0 17) (size 2.54 3.51) (layers B.Cu B.Paste B.Mask)(roundrect_rratio 0.07000000000000001)
+    (pad 2 smd rect (at 14.68 0 17) (size 2.54 3.51) (layers B.Cu B.Paste B.Mask)
       (zone_connect 2) (thermal_width 3.5) (thermal_gap 0.4))
-    (pad 1 smd roundrect (at -14.68 0 17) (size 2.54 3.51) (layers B.Cu B.Paste B.Mask)(roundrect_rratio 0.07000000000000001))
+    (pad 1 smd rect (at -14.68 0 17) (size 2.54 3.51) (layers B.Cu B.Paste B.Mask))
   )
 
   (module Housings_DFN_QFN:QFN-48-1EP_7x7mm_Pitch0.5mm (layer F.Cu) (tedit 5A3A69CC) (tstamp 5A4BFA77)
@@ -2500,7 +2500,7 @@
     (pad 2 smd rect (at -0.65 -1.35) (size 1.35 0.4) (layers F.Cu F.Paste F.Mask))
     (pad 1 smd rect (at -1.3 -1.35) (size 1.35 0.4) (layers F.Cu F.Paste F.Mask))
     (model ${KISYS3DMOD}/Connectors_USB.3dshapes/USB_Micro-B_Molex_47346-0001.step
-      (offset (xyz 0 -1.4 0))
+      (at (xyz 0 -1.4 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -2730,7 +2730,7 @@
     (fp_line (start -1 -0.4) (end -1 0.4) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1 0.4) (end 1 -0.4) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1 0.4) (end -1 0.4) (layer F.CrtYd) (width 0.05))
-    (pad 1 smd roundrect (at -0.55 0 45) (size 0.6 0.5) (layers F.Cu F.Paste F.Mask)(roundrect_rratio 0.35))
+    (pad 1 smd rect (at -0.55 0 45) (size 0.6 0.5) (layers F.Cu F.Paste F.Mask))
     (pad 2 smd rect (at 0.55 0 45) (size 0.6 0.5) (layers F.Cu F.Paste F.Mask))
     (model Capacitors_SMD.3dshapes/C_0402.wrl
       (at (xyz 0 0 0))
@@ -2764,7 +2764,7 @@
     (fp_line (start -1 -0.4) (end -1 0.4) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1 0.4) (end 1 -0.4) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1 0.4) (end -1 0.4) (layer F.CrtYd) (width 0.05))
-    (pad 1 smd roundrect (at -0.55 0 270) (size 0.6 0.5) (layers F.Cu F.Paste F.Mask)(roundrect_rratio 0.35))
+    (pad 1 smd rect (at -0.55 0 270) (size 0.6 0.5) (layers F.Cu F.Paste F.Mask))
     (pad 2 smd rect (at 0.55 0 270) (size 0.6 0.5) (layers F.Cu F.Paste F.Mask))
     (model Capacitors_SMD.3dshapes/C_0402.wrl
       (at (xyz 0 0 0))
@@ -2798,8 +2798,8 @@
     (fp_line (start 0.95 -0.65) (end 0.95 0.65) (layer F.CrtYd) (width 0.05))
     (fp_line (start 0.25 -0.53) (end -0.25 -0.53) (layer F.SilkS) (width 0.12))
     (fp_line (start -0.25 0.53) (end 0.25 0.53) (layer F.SilkS) (width 0.12))
-    (pad 1 smd roundrect (at -0.45 0 315) (size 0.4 0.6) (layers F.Cu F.Paste F.Mask)(roundrect_rratio 0.35))
-    (pad 2 smd roundrect (at 0.45 0 315) (size 0.4 0.6) (layers F.Cu F.Paste F.Mask)(roundrect_rratio 0.35))
+    (pad 1 smd rect (at -0.45 0 315) (size 0.4 0.6) (layers F.Cu F.Paste F.Mask))
+    (pad 2 smd rect (at 0.45 0 315) (size 0.4 0.6) (layers F.Cu F.Paste F.Mask))
     (model ${KISYS3DMOD}/Inductors_SMD.3dshapes/L_0402.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -4498,9 +4498,9 @@
     (fp_line (start 11.06 -4.11) (end 16.45 -4.11) (layer B.CrtYd) (width 0.05))
     (fp_arc (start 0 0) (end -11.06 4.11) (angle -139.2) (layer B.CrtYd) (width 0.05))
     (fp_arc (start 0 0) (end 11.06 -4.11) (angle -139.2) (layer B.CrtYd) (width 0.05))
-    (pad 2 smd roundrect (at 14.68 0 17) (size 2.54 3.51) (layers B.Cu B.Paste B.Mask)(roundrect_rratio 0.07000000000000001)
+    (pad 2 smd rect (at 14.68 0 17) (size 2.54 3.51) (layers B.Cu B.Paste B.Mask)
       (zone_connect 2) (thermal_width 3.5) (thermal_gap 0.4))
-    (pad 1 smd roundrect (at -14.68 0 17) (size 2.54 3.51) (layers B.Cu B.Paste B.Mask)(roundrect_rratio 0.07000000000000001))
+    (pad 1 smd rect (at -14.68 0 17) (size 2.54 3.51) (layers B.Cu B.Paste B.Mask))
   )
 
   (module Housings_DFN_QFN:QFN-48-1EP_7x7mm_Pitch0.5mm (layer F.Cu) (tedit 5A3A69CC) (tstamp 5A4BFA77)
@@ -4726,7 +4726,7 @@
     (pad 2 smd rect (at -0.65 -1.35) (size 1.35 0.4) (layers F.Cu F.Paste F.Mask))
     (pad 1 smd rect (at -1.3 -1.35) (size 1.35 0.4) (layers F.Cu F.Paste F.Mask))
     (model ${KISYS3DMOD}/Connectors_USB.3dshapes/USB_Micro-B_Molex_47346-0001.step
-      (offset (xyz 0 -1.4 0))
+      (at (xyz 0 -1.4 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -4956,7 +4956,7 @@
     (fp_line (start -1 -0.4) (end -1 0.4) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1 0.4) (end 1 -0.4) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1 0.4) (end -1 0.4) (layer F.CrtYd) (width 0.05))
-    (pad 1 smd roundrect (at -0.55 0 45) (size 0.6 0.5) (layers F.Cu F.Paste F.Mask)(roundrect_rratio 0.35))
+    (pad 1 smd rect (at -0.55 0 45) (size 0.6 0.5) (layers F.Cu F.Paste F.Mask))
     (pad 2 smd rect (at 0.55 0 45) (size 0.6 0.5) (layers F.Cu F.Paste F.Mask))
     (model Capacitors_SMD.3dshapes/C_0402.wrl
       (at (xyz 0 0 0))
@@ -4990,7 +4990,7 @@
     (fp_line (start -1 -0.4) (end -1 0.4) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1 0.4) (end 1 -0.4) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1 0.4) (end -1 0.4) (layer F.CrtYd) (width 0.05))
-    (pad 1 smd roundrect (at -0.55 0 270) (size 0.6 0.5) (layers F.Cu F.Paste F.Mask)(roundrect_rratio 0.35))
+    (pad 1 smd rect (at -0.55 0 270) (size 0.6 0.5) (layers F.Cu F.Paste F.Mask))
     (pad 2 smd rect (at 0.55 0 270) (size 0.6 0.5) (layers F.Cu F.Paste F.Mask))
     (model Capacitors_SMD.3dshapes/C_0402.wrl
       (at (xyz 0 0 0))
@@ -5024,8 +5024,8 @@
     (fp_line (start 0.95 -0.65) (end 0.95 0.65) (layer F.CrtYd) (width 0.05))
     (fp_line (start 0.25 -0.53) (end -0.25 -0.53) (layer F.SilkS) (width 0.12))
     (fp_line (start -0.25 0.53) (end 0.25 0.53) (layer F.SilkS) (width 0.12))
-    (pad 1 smd roundrect (at -0.45 0 315) (size 0.4 0.6) (layers F.Cu F.Paste F.Mask)(roundrect_rratio 0.35))
-    (pad 2 smd roundrect (at 0.45 0 315) (size 0.4 0.6) (layers F.Cu F.Paste F.Mask)(roundrect_rratio 0.35))
+    (pad 1 smd rect (at -0.45 0 315) (size 0.4 0.6) (layers F.Cu F.Paste F.Mask))
+    (pad 2 smd rect (at 0.45 0 315) (size 0.4 0.6) (layers F.Cu F.Paste F.Mask))
     (model ${KISYS3DMOD}/Inductors_SMD.3dshapes/L_0402.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -6724,9 +6724,9 @@
     (fp_line (start 11.06 -4.11) (end 16.45 -4.11) (layer B.CrtYd) (width 0.05))
     (fp_arc (start 0 0) (end -11.06 4.11) (angle -139.2) (layer B.CrtYd) (width 0.05))
     (fp_arc (start 0 0) (end 11.06 -4.11) (angle -139.2) (layer B.CrtYd) (width 0.05))
-    (pad 2 smd roundrect (at 14.68 0 17) (size 2.54 3.51) (layers B.Cu B.Paste B.Mask)(roundrect_rratio 0.07000000000000001)
+    (pad 2 smd rect (at 14.68 0 17) (size 2.54 3.51) (layers B.Cu B.Paste B.Mask)
       (zone_connect 2) (thermal_width 3.5) (thermal_gap 0.4))
-    (pad 1 smd roundrect (at -14.68 0 17) (size 2.54 3.51) (layers B.Cu B.Paste B.Mask)(roundrect_rratio 0.07000000000000001))
+    (pad 1 smd rect (at -14.68 0 17) (size 2.54 3.51) (layers B.Cu B.Paste B.Mask))
   )
 
   (module Housings_DFN_QFN:QFN-48-1EP_7x7mm_Pitch0.5mm (layer F.Cu) (tedit 5A3A69CC) (tstamp 5A4BFA77)
@@ -6952,7 +6952,7 @@
     (pad 2 smd rect (at -0.65 -1.35) (size 1.35 0.4) (layers F.Cu F.Paste F.Mask))
     (pad 1 smd rect (at -1.3 -1.35) (size 1.35 0.4) (layers F.Cu F.Paste F.Mask))
     (model ${KISYS3DMOD}/Connectors_USB.3dshapes/USB_Micro-B_Molex_47346-0001.step
-      (offset (xyz 0 -1.4 0))
+      (at (xyz 0 -1.4 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -7182,7 +7182,7 @@
     (fp_line (start -1 -0.4) (end -1 0.4) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1 0.4) (end 1 -0.4) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1 0.4) (end -1 0.4) (layer F.CrtYd) (width 0.05))
-    (pad 1 smd roundrect (at -0.55 0 45) (size 0.6 0.5) (layers F.Cu F.Paste F.Mask)(roundrect_rratio 0.35))
+    (pad 1 smd rect (at -0.55 0 45) (size 0.6 0.5) (layers F.Cu F.Paste F.Mask))
     (pad 2 smd rect (at 0.55 0 45) (size 0.6 0.5) (layers F.Cu F.Paste F.Mask))
     (model Capacitors_SMD.3dshapes/C_0402.wrl
       (at (xyz 0 0 0))
@@ -7216,7 +7216,7 @@
     (fp_line (start -1 -0.4) (end -1 0.4) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1 0.4) (end 1 -0.4) (layer F.CrtYd) (width 0.05))
     (fp_line (start 1 0.4) (end -1 0.4) (layer F.CrtYd) (width 0.05))
-    (pad 1 smd roundrect (at -0.55 0 270) (size 0.6 0.5) (layers F.Cu F.Paste F.Mask)(roundrect_rratio 0.35))
+    (pad 1 smd rect (at -0.55 0 270) (size 0.6 0.5) (layers F.Cu F.Paste F.Mask))
     (pad 2 smd rect (at 0.55 0 270) (size 0.6 0.5) (layers F.Cu F.Paste F.Mask))
     (model Capacitors_SMD.3dshapes/C_0402.wrl
       (at (xyz 0 0 0))
@@ -7250,8 +7250,8 @@
     (fp_line (start 0.95 -0.65) (end 0.95 0.65) (layer F.CrtYd) (width 0.05))
     (fp_line (start 0.25 -0.53) (end -0.25 -0.53) (layer F.SilkS) (width 0.12))
     (fp_line (start -0.25 0.53) (end 0.25 0.53) (layer F.SilkS) (width 0.12))
-    (pad 1 smd roundrect (at -0.45 0 315) (size 0.4 0.6) (layers F.Cu F.Paste F.Mask)(roundrect_rratio 0.35))
-    (pad 2 smd roundrect (at 0.45 0 315) (size 0.4 0.6) (layers F.Cu F.Paste F.Mask)(roundrect_rratio 0.35))
+    (pad 1 smd rect (at -0.45 0 315) (size 0.4 0.6) (layers F.Cu F.Paste F.Mask))
+    (pad 2 smd rect (at 0.45 0 315) (size 0.4 0.6) (layers F.Cu F.Paste F.Mask))
     (model ${KISYS3DMOD}/Inductors_SMD.3dshapes/L_0402.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -8950,9 +8950,9 @@
     (fp_line (start -7.8026 8) (end 7.8026 8) (layer B.Fab) (width 0.1))
     (fp_arc (start 0 0) (end -10.61275 3.5) (angle -27.4635) (layer B.Fab) (width 0.1))
     (fp_circle (center 0 0) (end 10 0) (layer Dwgs.User) (width 0.15))
-    (pad 1 smd roundrect (at -14.68 0 17) (size 2.54 3.51) (layers B.Cu B.Paste B.Mask)(roundrect_rratio 0.07000000000000001)
+    (pad 1 smd rect (at -14.68 0 17) (size 2.54 3.51) (layers B.Cu B.Paste B.Mask)
       (net 3 "Net-(BT1-Pad1)"))
-    (pad 2 smd roundrect (at 14.68 0 17) (size 2.54 3.51) (layers B.Cu B.Paste B.Mask)(roundrect_rratio 0.07000000000000001)
+    (pad 2 smd rect (at 14.68 0 17) (size 2.54 3.51) (layers B.Cu B.Paste B.Mask)
       (net 1 GND) (zone_connect 2) (thermal_width 3.5) (thermal_gap 0.4))
   )
 
@@ -10822,9 +10822,9 @@
     (fp_text user %R (at 0 0 315) (layer F.Fab)
       (effects (font (size 0.2 0.2) (thickness 0.03)))
     )
-    (pad 2 smd roundrect (at 0.45 0 315) (size 0.4 0.6) (layers F.Cu F.Paste F.Mask)(roundrect_rratio 0.35)
+    (pad 2 smd rect (at 0.45 0 315) (size 0.4 0.6) (layers F.Cu F.Paste F.Mask)
       (net 2 "Net-(ANT1-Pad1)"))
-    (pad 1 smd roundrect (at -0.45 0 315) (size 0.4 0.6) (layers F.Cu F.Paste F.Mask)(roundrect_rratio 0.35)
+    (pad 1 smd rect (at -0.45 0 315) (size 0.4 0.6) (layers F.Cu F.Paste F.Mask)
       (net 10 /KW41Z/ANT))
     (model ${KISYS3DMOD}/Inductors_SMD.3dshapes/L_0402.wrl
       (at (xyz 0 0 0))
@@ -10860,7 +10860,7 @@
     )
     (pad 2 smd rect (at 0.55 0 270) (size 0.6 0.5) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (pad 1 smd roundrect (at -0.55 0 270) (size 0.6 0.5) (layers F.Cu F.Paste F.Mask)(roundrect_rratio 0.35)
+    (pad 1 smd rect (at -0.55 0 270) (size 0.6 0.5) (layers F.Cu F.Paste F.Mask)
       (net 2 "Net-(ANT1-Pad1)"))
     (model Capacitors_SMD.3dshapes/C_0402.wrl
       (at (xyz 0 0 0))
@@ -10896,7 +10896,7 @@
     )
     (pad 2 smd rect (at 0.55 0 45) (size 0.6 0.5) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (pad 1 smd roundrect (at -0.55 0 45) (size 0.6 0.5) (layers F.Cu F.Paste F.Mask)(roundrect_rratio 0.35)
+    (pad 1 smd rect (at -0.55 0 45) (size 0.6 0.5) (layers F.Cu F.Paste F.Mask)
       (net 10 /KW41Z/ANT))
     (model Capacitors_SMD.3dshapes/C_0402.wrl
       (at (xyz 0 0 0))
@@ -11164,7 +11164,7 @@
     (pad 6 thru_hole oval (at 3.5 1.35) (size 1.55 1) (drill oval 1.15 0.5) (layers *.Cu *.Mask)
       (net 1 GND))
     (model ${KISYS3DMOD}/Connectors_USB.3dshapes/USB_Micro-B_Molex_47346-0001.step
-      (offset (xyz 0 -1.4 0))
+      (at (xyz 0 -1.4 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
