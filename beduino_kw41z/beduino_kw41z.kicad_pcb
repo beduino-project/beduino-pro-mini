@@ -14,6 +14,7 @@
     (title "Beduino Pro Mini")
     (rev 1.2)
     (comment 1 "License: Solderpad Hardware License 2.0")
+    (comment 2 "Copyright 2018 Maximilian Luenert")
   )
 
   (layers

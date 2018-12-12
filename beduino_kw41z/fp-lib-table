@@ -2,5 +2,5 @@
   (lib (name arduino_mini)(type KiCad)(uri ${KIPRJMOD}/mod/arduino_mini.pretty)(options "")(descr ""))
   (lib (name button)(type KiCad)(uri ${KIPRJMOD}/mod/button.pretty)(options "")(descr ""))
   (lib (name jumper)(type KiCad)(uri ${KIPRJMOD}/mod/jumper.pretty)(options "")(descr ""))
-  (lib (name MyAntennas)(type KiCad)(uri ${KIPRJMOD}/mod/PCB_Antenna_Lib/MyAntennas.pretty)(options "")(descr ""))
+  (lib (name MyAntennas)(type KiCad)(uri ${KIPRJMOD}/mod/MyAntennas.pretty)(options "")(descr ""))
 )

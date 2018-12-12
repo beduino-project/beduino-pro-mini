@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:beduino_kw41z-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -9,7 +8,7 @@ Title "Beduino Pro Mini"
 Date ""
 Rev "1.1"
 Comp ""
-Comment1 "DIPDAP reference schematic"
+Comment1 "License: Solderpad Hardware License 2.0"
 Comment2 ""
 Comment3 ""
 Comment4 ""
