@@ -10,6 +10,12 @@
   )
 
   (page A4)
+  (title_block
+    (title "Beduino Pro Mini")
+    (rev 1.2)
+    (comment 1 "License: Solderpad Hardware License 2.0")
+  )
+
   (layers
     (0 F.Cu signal)
     (31 B.Cu signal)
